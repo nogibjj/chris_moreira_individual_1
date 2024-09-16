@@ -2,6 +2,22 @@
 
 [![CI by Chris](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml)
 
+Project Requirenments: 
+Project #1: Continuous Integration using Gitlab Actions of Python Data Science Project
+
+The project structure must include the following files:
+-- Jupyter Notebook with -- 
+-> Cells that perform descriptive statistics using Polars or Panda.
+-> Tested by using nbval plugin for pytest
+-- Makefile with the following --
+-> Run all tests (must test notebook and script and lib)
+-> Formats code with Python blackLinks to an external site.
+-> Lints code with RuffLinks to an external site.
+-- Installs code via:  pip install -r requirements.txt
+-> test_script.py to test script
+-> test_lib.py to test library
+-> Pinned requirements.txt
+-> Gitlab Actions performs all four Makefile commands with badges for each one in the README.md
 
 << Data Description for all variables in my Dataset >>
 Company: Company name
