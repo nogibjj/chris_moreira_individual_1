@@ -2,12 +2,22 @@ install:
 	pip install --upgrade pip && pip install -r requirements.txt
 
 format:
-	black *.py
+	nbqa black *.ipynb &&\
+	black *.py && black test_*.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	ruff check test_*.py && ruff check *.py
+	nbqa ruff *.ipynb
+
+container-lint:
+	docker run --rm -i hadolint/hadolint < Dockerfile
 
 test:
-	python -m pytest -cov=main test_main.py
+	python -m pytest -vv --nbval -cov=mylib -cov=main *.py test_*.py *.ipynb
 
-all: install format lint test
+refactor: format lint
+
+deploy:
+	#deploy goes here
+
+all: install lint test format deploy
