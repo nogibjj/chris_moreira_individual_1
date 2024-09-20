@@ -1,4 +1,4 @@
-# chris_moreira_mini_project_IDS720
+# INDIVIDUAL PROJECT BY CHRIS MOREIRA
 
 FORMAT BADGE: [![Format](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/format.yml)
 INSTALL BADGE: [![Install](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/install.yml)
