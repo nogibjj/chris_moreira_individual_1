@@ -26,10 +26,12 @@ def main():
     mean_value_creation = calculate_mean(df_edited)
     median_value_creation = calculate_median_value_creation(df_edited)
 
-    # Print calculated statistics
-    print("Standard Deviation of Value Creation (in billions):", std_value_creation)
-    print("Mean of Value Creation (in billions):", mean_value_creation)
-    print("Median of Value Creation (in billions):", median_value_creation)
+    # Print calculated statistics (with formatting)
+    print(
+        f"Standard Deviation of Value Creation (in billions): {std_value_creation:.4f}"
+    )
+    print(f"Mean of Value Creation (in billions): {mean_value_creation:.4f}")
+    print(f"Median of Value Creation (in billions): {median_value_creation:.4f}")
 
     # Define the save directory for plots
     save_directory = (

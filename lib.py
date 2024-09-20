@@ -5,9 +5,6 @@ import seaborn as sns
 import os
 
 
-# Step 1: Define the functions
-
-
 def dataset_import(file_path=None):
     if file_path is None:
         # Use a relative path to the test_data folder
