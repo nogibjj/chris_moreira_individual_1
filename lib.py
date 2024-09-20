@@ -45,6 +45,7 @@ def data_modeling(df_raw):
         df_edited["funding_value"] * 1e9,
         df_edited["funding_value"] * 1e6,
     )
+
     df_edited["valuation_value"] = np.where(
         df_edited["valuation_unit"] == "B",
         df_edited["valuation_value"] * 1e9,
