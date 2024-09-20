@@ -124,7 +124,7 @@ df_edited_o = data_modeling(df_raw_o)
 std_value_creation = calculate_std_value_creation(df_edited_o)
 print("Standard Deviation of Value Creation (in billions):", std_value_creation)
 
-# Step 6: Calculate and print the standard deviation of value_creation
+# Step 6: Calculate and print the mean and median of value_creation
 mean_value_creation = calculate_mean(df_edited_o)
 print("Mean of Value Creation (in billions):", mean_value_creation)
 
