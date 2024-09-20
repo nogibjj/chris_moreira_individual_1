@@ -1,6 +1,9 @@
 # chris_moreira_mini_project_IDS720
 
-[![CI by Chris](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/chris_moriera_valuecreation_pandas/actions/workflows/hello.yml)
+FORMAT BADGE: [![Format](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/format.yml)
+INSTALL BADGE: [![Install](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/install.yml)
+LINT BADGE: [![Lint](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/lint.yml)
+TEST BADGE: [![Test](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/test.yml)
 
 Project Requirenments: 
 Project #1: Continuous Integration using Gitlab Actions of Python Data Science Project
