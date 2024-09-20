@@ -6,8 +6,8 @@ format:
 	black *.py && black test_*.py
 
 lint:
-	ruff check test_*.py && ruff check *.py
-	nbqa ruff *.ipynb
+	ruff check test_*.py && ruff check *.py --fix
+	nbqa ruff *.ipynb --fix
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile

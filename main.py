@@ -1,9 +1,4 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import os
-
 from lib import (
     dataset_import,
     data_modeling,
@@ -28,7 +23,8 @@ def main():
 
     # Print calculated statistics (with formatting)
     print(
-        f"Standard Deviation of Value Creation (in billions): {std_value_creation:.4f}"
+        f"Standard Deviation of Value Creation (in billions): "
+        f"{std_value_creation:.4f}"
     )
     print(f"Mean of Value Creation (in billions): {mean_value_creation:.4f}")
     print(f"Median of Value Creation (in billions): {median_value_creation:.4f}")
