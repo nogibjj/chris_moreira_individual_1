@@ -52,5 +52,3 @@ Mean of Value Creation (in billions): 2.921073446327684
 Median of Value Creation (in billions): 1.524
 Standard Deviation of Value Creation (in billions): 8.133136697911187
 =======
-![alt text](value_creation_boxplot.png)
->>>>>>> c3a0168712df93493226d46e672c86e01455a4ab
