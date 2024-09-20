@@ -1,4 +1,4 @@
-# INDIVIDUAL PROJECT BY CHRIS MOREIRA
+# INDIVIDUAL PROJECT 1 BY CHRIS MOREIRA
 
 # PROJECT BADGES
 FORMAT BADGE: [![Format](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/format.yml)
