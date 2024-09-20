@@ -132,6 +132,5 @@ median_value_creation = calculate_median_value_creation(df_edited_o)
 print("Median of Value Creation (in billions):", median_value_creation)
 
 
-# Step 8: Plot the unique boxplot for value_creation by industry and save it to the specified directory
 save_directory = r"C:/Users/chris/Downloads/IDS706/chris_moriera_valuecreation_pandas/"
 plot_value_creation_by_industry(df_edited_o, save_directory)
