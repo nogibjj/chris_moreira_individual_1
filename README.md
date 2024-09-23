@@ -5,7 +5,8 @@ FORMAT BADGE: [![Format](https://github.com/nogibjj/chris_moreira_individual_1/a
 INSTALL BADGE: [![Install](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/install.yml)
 LINT BADGE: [![Lint](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/lint.yml)
 TEST BADGE: [![Test](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/chris_moreira_individual_1/actions/workflows/test.yml)
-
+# Video Link
+https://youtu.be/bWGH4p-vGUg
 # PROJECT DESCRIPTION
 The project structure must include the following files:
 Jupyter Notebook with: 
